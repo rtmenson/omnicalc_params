@@ -1,0 +1,23 @@
+<h1> Payment Calculation </h1>
+
+<form action="http://localhost:3000/payment/results">
+  <div>
+    <label for="apr">
+      Enter APR
+    </label>
+    <input type="text" name="basis_points" id="apr">
+  </div>
+  <div>
+    <label for="period">
+      Enter Number of years
+    </label>
+    <input type="text" name="number_of_years" id="period">
+  </div>
+  <div>
+    <label for="principal">
+      Enter Principal
+    </label>
+    <input type="text" name="present_value" id="principal">
+  </div>
+  <button>Calculate monthly payment</button>
+</form>
